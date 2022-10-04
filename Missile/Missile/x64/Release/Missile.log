@@ -1,0 +1,17 @@
+﻿  missile.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\minwindef.h(127,1): warning C4005: 'CALLBACK': macro redefinition
+C:\Users\mirkop\Desktop\grafika\Missile\Glut.h(34): message : see previous definition of 'CALLBACK'
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(1094,5): error MSB6006: "link.exe" exited with code 1120.
+missile.obj : error LNK2001: unresolved external symbol __imp_glutReshapeFunc
+missile.obj : error LNK2001: unresolved external symbol __imp___glutCreateWindowWithExit
+missile.obj : error LNK2001: unresolved external symbol __imp___glutInitWithExit
+missile.obj : error LNK2001: unresolved external symbol __imp_glutPostRedisplay
+missile.obj : error LNK2001: unresolved external symbol __imp_glutKeyboardFunc
+missile.obj : error LNK2001: unresolved external symbol __imp_glutInitDisplayMode
+missile.obj : error LNK2001: unresolved external symbol __imp_glutSpecialFunc
+missile.obj : error LNK2001: unresolved external symbol __imp_glutDisplayFunc
+missile.obj : error LNK2001: unresolved external symbol __imp_glutMainLoop
+missile.obj : error LNK2001: unresolved external symbol __imp_glutInitWindowPosition
+missile.obj : error LNK2001: unresolved external symbol __imp_glutInitWindowSize
+missile.obj : error LNK2001: unresolved external symbol __imp_glutSwapBuffers
+C:\Users\mirkop\Desktop\grafika\Missile\x64\Release\Missile.exe : fatal error LNK1120: 12 unresolved externals
